@@ -1,0 +1,60 @@
+[0.017s] Invoking command in '/home/tamir/manipulator_project/config/build/moveit_robot_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware/install/control_hardware:/opt/ros/humble /usr/bin/cmake /home/tamir/manipulator_project/config/moveit_robot_config -DCMAKE_INSTALL_PREFIX=/home/tamir/manipulator_project/config/install/moveit_robot_config
+[0.076s] -- The C compiler identification is GNU 11.4.0
+[0.116s] -- The CXX compiler identification is GNU 11.4.0
+[0.122s] -- Detecting C compiler ABI info
+[0.182s] -- Detecting C compiler ABI info - done
+[0.188s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.188s] -- Detecting C compile features
+[0.188s] -- Detecting C compile features - done
+[0.190s] -- Detecting CXX compiler ABI info
+[0.266s] -- Detecting CXX compiler ABI info - done
+[0.272s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.272s] -- Detecting CXX compile features
+[0.272s] -- Detecting CXX compile features - done
+[0.274s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.417s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.529s] -- Configuring done
+[0.530s] -- Generating done
+[0.531s] -- Build files have been written to: /home/tamir/manipulator_project/config/build/moveit_robot_config
+[0.536s] Invoked command in '/home/tamir/manipulator_project/config/build/moveit_robot_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware/install/control_hardware:/opt/ros/humble /usr/bin/cmake /home/tamir/manipulator_project/config/moveit_robot_config -DCMAKE_INSTALL_PREFIX=/home/tamir/manipulator_project/config/install/moveit_robot_config
+[0.537s] Invoking command in '/home/tamir/manipulator_project/config/build/moveit_robot_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware/install/control_hardware:/opt/ros/humble /usr/bin/cmake --build /home/tamir/manipulator_project/config/build/moveit_robot_config -- -j12 -l12
+[0.579s] Invoked command in '/home/tamir/manipulator_project/config/build/moveit_robot_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware/install/control_hardware:/opt/ros/humble /usr/bin/cmake --build /home/tamir/manipulator_project/config/build/moveit_robot_config -- -j12 -l12
+[0.589s] Invoking command in '/home/tamir/manipulator_project/config/build/moveit_robot_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware/install/control_hardware:/opt/ros/humble /usr/bin/cmake --install /home/tamir/manipulator_project/config/build/moveit_robot_config
+[0.599s] -- Install configuration: ""
+[0.599s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/ament_index/resource_index/package_run_dependencies/moveit_robot_config
+[0.599s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/ament_index/resource_index/parent_prefix_path/moveit_robot_config
+[0.599s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/environment/ament_prefix_path.sh
+[0.599s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/environment/ament_prefix_path.dsv
+[0.600s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/environment/path.sh
+[0.600s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/environment/path.dsv
+[0.600s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/local_setup.bash
+[0.600s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/local_setup.sh
+[0.600s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/local_setup.zsh
+[0.600s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/local_setup.dsv
+[0.600s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/package.dsv
+[0.600s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/ament_index/resource_index/packages/moveit_robot_config
+[0.600s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/cmake/moveit_robot_configConfig.cmake
+[0.600s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/cmake/moveit_robot_configConfig-version.cmake
+[0.600s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/package.xml
+[0.601s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/launch
+[0.601s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/launch/setup_assistant.launch.py
+[0.601s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/launch/move_group.launch.py
+[0.601s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/launch/moveit_rviz.launch.py
+[0.601s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/launch/demo.launch.py
+[0.601s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/launch/static_virtual_joint_tfs.launch.py
+[0.601s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/launch/warehouse_db.launch.py
+[0.601s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/launch/spawn_controllers.launch.py
+[0.601s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/launch/rsp.launch.py
+[0.601s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/config
+[0.601s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/config/moveit_controllers.yaml
+[0.601s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/config/kinematics.yaml
+[0.602s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/config/manipulator_robot.ros2_control.xacro
+[0.602s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/config/ros2_controllers.yaml
+[0.602s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/config/joint_limits.yaml
+[0.602s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/config/moveit.rviz
+[0.602s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/config/manipulator_robot.srdf
+[0.602s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/config/manipulator_robot.urdf.xacro
+[0.602s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/config/pilz_cartesian_limits.yaml
+[0.602s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/config/initial_positions.yaml
+[0.602s] -- Installing: /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/.setup_assistant
+[0.604s] Invoked command in '/home/tamir/manipulator_project/config/build/moveit_robot_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware/install/control_hardware:/opt/ros/humble /usr/bin/cmake --install /home/tamir/manipulator_project/config/build/moveit_robot_config
