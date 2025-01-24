@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/tamir/manipulator_project/build/manipulator_project
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/move_group.dir/all
+all: CMakeFiles/move_robot.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,7 +73,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/manipulator_project_uninstall.dir/clean
-clean: CMakeFiles/move_group.dir/clean
+clean: CMakeFiles/move_robot.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -129,30 +129,30 @@ CMakeFiles/manipulator_project_uninstall.dir/clean:
 .PHONY : CMakeFiles/manipulator_project_uninstall.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/move_group.dir
+# Target rules for target CMakeFiles/move_robot.dir
 
 # All Build rule for target.
-CMakeFiles/move_group.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_group.dir/build.make CMakeFiles/move_group.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_group.dir/build.make CMakeFiles/move_group.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamir/manipulator_project/build/manipulator_project/CMakeFiles --progress-num=1,2 "Built target move_group"
-.PHONY : CMakeFiles/move_group.dir/all
+CMakeFiles/move_robot.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot.dir/build.make CMakeFiles/move_robot.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot.dir/build.make CMakeFiles/move_robot.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tamir/manipulator_project/build/manipulator_project/CMakeFiles --progress-num=1,2 "Built target move_robot"
+.PHONY : CMakeFiles/move_robot.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/move_group.dir/rule: cmake_check_build_system
+CMakeFiles/move_robot.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamir/manipulator_project/build/manipulator_project/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/move_group.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/move_robot.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tamir/manipulator_project/build/manipulator_project/CMakeFiles 0
-.PHONY : CMakeFiles/move_group.dir/rule
+.PHONY : CMakeFiles/move_robot.dir/rule
 
 # Convenience name for target.
-move_group: CMakeFiles/move_group.dir/rule
-.PHONY : move_group
+move_robot: CMakeFiles/move_robot.dir/rule
+.PHONY : move_robot
 
 # clean rule for target.
-CMakeFiles/move_group.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_group.dir/build.make CMakeFiles/move_group.dir/clean
-.PHONY : CMakeFiles/move_group.dir/clean
+CMakeFiles/move_robot.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot.dir/build.make CMakeFiles/move_robot.dir/clean
+.PHONY : CMakeFiles/move_robot.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

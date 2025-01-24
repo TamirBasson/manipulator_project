@@ -198,41 +198,41 @@ manipulator_project_uninstall/fast:
 .PHONY : manipulator_project_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named move_group
+# Target rules for targets named move_robot
 
 # Build rule for target.
-move_group: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 move_group
-.PHONY : move_group
+move_robot: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 move_robot
+.PHONY : move_robot
 
 # fast build rule for target.
-move_group/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_group.dir/build.make CMakeFiles/move_group.dir/build
-.PHONY : move_group/fast
+move_robot/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot.dir/build.make CMakeFiles/move_robot.dir/build
+.PHONY : move_robot/fast
 
-src/move_group.o: src/move_group.cpp.o
-.PHONY : src/move_group.o
+src/move_robot.o: src/move_robot.cpp.o
+.PHONY : src/move_robot.o
 
 # target to build an object file
-src/move_group.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_group.dir/build.make CMakeFiles/move_group.dir/src/move_group.cpp.o
-.PHONY : src/move_group.cpp.o
+src/move_robot.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot.dir/build.make CMakeFiles/move_robot.dir/src/move_robot.cpp.o
+.PHONY : src/move_robot.cpp.o
 
-src/move_group.i: src/move_group.cpp.i
-.PHONY : src/move_group.i
+src/move_robot.i: src/move_robot.cpp.i
+.PHONY : src/move_robot.i
 
 # target to preprocess a source file
-src/move_group.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_group.dir/build.make CMakeFiles/move_group.dir/src/move_group.cpp.i
-.PHONY : src/move_group.cpp.i
+src/move_robot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot.dir/build.make CMakeFiles/move_robot.dir/src/move_robot.cpp.i
+.PHONY : src/move_robot.cpp.i
 
-src/move_group.s: src/move_group.cpp.s
-.PHONY : src/move_group.s
+src/move_robot.s: src/move_robot.cpp.s
+.PHONY : src/move_robot.s
 
 # target to generate assembly for a file
-src/move_group.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_group.dir/build.make CMakeFiles/move_group.dir/src/move_group.cpp.s
-.PHONY : src/move_group.cpp.s
+src/move_robot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot.dir/build.make CMakeFiles/move_robot.dir/src/move_robot.cpp.s
+.PHONY : src/move_robot.cpp.s
 
 # Help Target
 help:
@@ -249,10 +249,10 @@ help:
 	@echo "... test"
 	@echo "... manipulator_project_uninstall"
 	@echo "... uninstall"
-	@echo "... move_group"
-	@echo "... src/move_group.o"
-	@echo "... src/move_group.i"
-	@echo "... src/move_group.s"
+	@echo "... move_robot"
+	@echo "... src/move_robot.o"
+	@echo "... src/move_robot.i"
+	@echo "... src/move_robot.s"
 .PHONY : help
 
 

@@ -24,6 +24,8 @@
 /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/launch/warehouse_db.launch.py
 /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/launch/build/COLCON_IGNORE
 /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/launch/build/.built_by
+/home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/launch/log/build_2025-01-24_18-01-34/events.log
+/home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/launch/log/build_2025-01-24_18-01-34/logger_all.log
 /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/launch/log/COLCON_IGNORE
 /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/launch/log/build_2025-01-22_15-48-35/events.log
 /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/launch/log/build_2025-01-22_15-48-35/logger_all.log
@@ -54,6 +56,7 @@
 /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/config/joint_limits.yaml
 /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/config/moveit.rviz
 /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/config/manipulator_robot.srdf
+/home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/config/sensors_3d.yaml
 /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/config/manipulator_robot.urdf.xacro
 /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/config/pilz_cartesian_limits.yaml
 /home/tamir/manipulator_project/config/install/moveit_robot_config/share/moveit_robot_config/config/initial_positions.yaml

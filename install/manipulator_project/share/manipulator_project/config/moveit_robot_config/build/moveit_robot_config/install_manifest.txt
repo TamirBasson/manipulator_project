@@ -31,6 +31,8 @@
 /home/tamir/manipulator_project/config/moveit_robot_config/install/moveit_robot_config/share/moveit_robot_config/launch/log/latest_build
 /home/tamir/manipulator_project/config/moveit_robot_config/install/moveit_robot_config/share/moveit_robot_config/launch/log/build_2025-01-23_20-15-38/events.log
 /home/tamir/manipulator_project/config/moveit_robot_config/install/moveit_robot_config/share/moveit_robot_config/launch/log/build_2025-01-23_20-15-38/logger_all.log
+/home/tamir/manipulator_project/config/moveit_robot_config/install/moveit_robot_config/share/moveit_robot_config/launch/log/build_2025-01-24_11-34-14/events.log
+/home/tamir/manipulator_project/config/moveit_robot_config/install/moveit_robot_config/share/moveit_robot_config/launch/log/build_2025-01-24_11-34-14/logger_all.log
 /home/tamir/manipulator_project/config/moveit_robot_config/install/moveit_robot_config/share/moveit_robot_config/launch/spawn_controllers.launch.py
 /home/tamir/manipulator_project/config/moveit_robot_config/install/moveit_robot_config/share/moveit_robot_config/launch/rsp.launch.py
 /home/tamir/manipulator_project/config/moveit_robot_config/install/moveit_robot_config/share/moveit_robot_config/launch/install/setup.ps1
@@ -52,6 +54,7 @@
 /home/tamir/manipulator_project/config/moveit_robot_config/install/moveit_robot_config/share/moveit_robot_config/config/joint_limits.yaml
 /home/tamir/manipulator_project/config/moveit_robot_config/install/moveit_robot_config/share/moveit_robot_config/config/moveit.rviz
 /home/tamir/manipulator_project/config/moveit_robot_config/install/moveit_robot_config/share/moveit_robot_config/config/manipulator_robot.srdf
+/home/tamir/manipulator_project/config/moveit_robot_config/install/moveit_robot_config/share/moveit_robot_config/config/sensors_3d.yaml
 /home/tamir/manipulator_project/config/moveit_robot_config/install/moveit_robot_config/share/moveit_robot_config/config/manipulator_robot.urdf.xacro
 /home/tamir/manipulator_project/config/moveit_robot_config/install/moveit_robot_config/share/moveit_robot_config/config/pilz_cartesian_limits.yaml
 /home/tamir/manipulator_project/config/moveit_robot_config/install/moveit_robot_config/share/moveit_robot_config/config/initial_positions.yaml

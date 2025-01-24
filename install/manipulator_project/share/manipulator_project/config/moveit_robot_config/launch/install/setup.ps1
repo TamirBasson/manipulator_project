@@ -33,6 +33,7 @@ _colcon_prefix_chain_powershell_source_script "/home/tamir/install\local_setup.p
 _colcon_prefix_chain_powershell_source_script "/home/tamir/autonomous_robot/autonomous_robot_description/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/tamir/autonomous_robot/autonomous_robot_description/launch/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/tamir/autonomous_robot/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/tamir/manipulator_project/config/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/tamir/manipulator_project/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/tamir/manipulator_project/config/moveit_robot_config/install\local_setup.ps1"
 

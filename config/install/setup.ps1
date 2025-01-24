@@ -34,7 +34,6 @@ _colcon_prefix_chain_powershell_source_script "/home/tamir/autonomous_robot/auto
 _colcon_prefix_chain_powershell_source_script "/home/tamir/autonomous_robot/autonomous_robot_description/launch/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/tamir/autonomous_robot/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/tamir/manipulator_project/install\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/tamir/manipulator_project/config/moveit_robot_config/launch/install\local_setup.ps1"
 
 # source this prefix
 $env:COLCON_CURRENT_PREFIX=(Split-Path $PSCommandPath -Parent)

@@ -1,6 +1,6 @@
 /home/tamir/manipulator_project/build/manipulator_project/CMakeFiles/uninstall.dir
 /home/tamir/manipulator_project/build/manipulator_project/CMakeFiles/manipulator_project_uninstall.dir
-/home/tamir/manipulator_project/build/manipulator_project/CMakeFiles/move_group.dir
+/home/tamir/manipulator_project/build/manipulator_project/CMakeFiles/move_robot.dir
 /home/tamir/manipulator_project/build/manipulator_project/CMakeFiles/test.dir
 /home/tamir/manipulator_project/build/manipulator_project/CMakeFiles/edit_cache.dir
 /home/tamir/manipulator_project/build/manipulator_project/CMakeFiles/rebuild_cache.dir

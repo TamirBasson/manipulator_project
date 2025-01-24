@@ -34,7 +34,7 @@
     <!-- Base link -->
     <link name="base_link">
         <inertial>
-            <origin xyz="0 0 0.225" rpy="0 0 0"/>
+            <origin xyz="0 0 0.25" rpy="0 0 0"/>
             <mass value="1.0"/>
             <!-- Inertia tensor calculations for a solid cylinder aligned along the Z-axis:
              Ixx = Iyy = (1/12) * m * (3*r^2 + h^2)
@@ -58,16 +58,16 @@
                     izz="0.005"/>
         </inertial>
         <visual>
-            <origin xyz="0 0 0.225" rpy="0 0 0"/>
+            <origin xyz="0 0 0.25" rpy="0 0 0"/>
             <geometry>
-                <cylinder length="0.45" radius="0.1"/>
+                <cylinder length="0.5" radius="0.1"/>
             </geometry>
             <material name="silver"/>
         </visual>
         <collision>
-            <origin xyz="0 0 0.225" rpy="0 0 0"/>
+            <origin xyz="0 0 0.25" rpy="0 0 0"/>
             <geometry>
-                <cylinder length="0.45" radius="0.1"/>
+                <cylinder length="0.5" radius="0.1"/>
             </geometry>
         </collision>
         <!-- added sphere just for visualization purposes, didn't add collision for this one -->
@@ -77,7 +77,7 @@
             <geometry>
                 <sphere radius="0.1"/>
             </geometry>
-        </visual>
+        </visual> 
     </link>
 
     <!-- 
@@ -92,7 +92,7 @@
         <limit lower="${-pi / 2.0}" upper="${pi / 2.0}" effort="10" velocity="1.0"/>
     </joint>
 
-    <!--  Link1 -->
+    <!-- Link1 -->
     <link name="link1">
         <inertial>
             <origin xyz="0 0 0.2" rpy="0 0 0"/>
@@ -104,38 +104,43 @@
                     iyz="0.0" 
                     izz="0.0002"/>
         </inertial>
-        <visual>
-            <origin xyz="0 0 0.15" rpy="0 0 0"/>
-            <geometry>
-                <cylinder length="0.4" radius="0.02"/>
-            </geometry>
-            <material name="silver"/>
-        </visual>
-        <collision>
-            <origin xyz="0 0 0.15" rpy="0 0 0"/>
-            <geometry>
-                <cylinder length="0.4" radius="0.02"/>
-            </geometry>
-        </collision>
         
-        <inertial>
-            <origin xyz="0 0 0" rpy="0 0 0"/>
-            <mass value="0.5"/>
-        <inertia        ixx="0.001979" 
-                        ixy="0.0" 
-                        ixz="0.0" 
-                        iyy="0.001979" 
-                        iyz="0.0" 
-                        izz="0.000625"/>
-        </inertial>
-        <!-- added sphere just for visualization purposes, didn't add collision for this one -->
         <visual>
-            <material name="silver"/>
-            <origin xyz="0 0 0.35" rpy="0 0 0"/>
+            <origin xyz="0 0 0.2" rpy="0 0 0"/>
             <geometry>
-                <sphere radius="0.03"/>
+                <cylinder length="0.4" radius="0.02"/>
             </geometry>
+            <material name="silver"/>
         </visual>
 
-    </link> 
+        <collision>
+            <origin xyz="0 0 0.2" rpy="0 0 0"/>
+            <geometry>
+                <cylinder length="0.32" radius="0.02"/>
+            </geometry>
+        </collision>
+        <!-- Added collision geometry matching the visual geometry -->
+    </link>
+
+    <link name="end_effector">
+    <visual>
+        <geometry>
+        <sphere radius="0.03"/>  <!-- Visual representation -->
+        </geometry>
+        <material name="red"/>
+    </visual>
+    <collision>
+        <geometry>
+        <sphere radius="0.03"/>  <!-- Collision geometry -->
+        </geometry>
+    </collision>
+    </link>
+
+
+    <joint name="line1_to_end_effector_join" type="fixed">
+    <parent link="link1"/>
+    <child link="end_effector"/>
+    <origin xyz="0 0 0.4" rpy="0 0 0"/>
+    </joint>
+
 </robot>

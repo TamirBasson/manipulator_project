@@ -1,0 +1,9 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/move_robot.dir/src/move_robot.cpp.o[0m
+[01m[K/home/tamir/manipulator_project/src/move_robot.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tamir/manipulator_project/src/move_robot.cpp:55:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose[m[K’ was not declared in this scope; did you mean ‘[01m[Ktarget_z[m[K’?
+   55 |     [01;31m[Ktarget_pose[m[K.orientation.x = 0.0;
+      |     [01;31m[K^~~~~~~~~~~[m[K
+      |     [32m[Ktarget_z[m[K
+gmake[2]: *** [CMakeFiles/move_robot.dir/build.make:76: CMakeFiles/move_robot.dir/src/move_robot.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_robot.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -43,21 +43,21 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/manipulator_project/move_group" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/manipulator_project/move_group")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/manipulator_project/move_robot" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/manipulator_project/move_robot")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/manipulator_project/move_group"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/manipulator_project/move_robot"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/manipulator_project" TYPE EXECUTABLE FILES "/home/tamir/manipulator_project/build/manipulator_project/move_group")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/manipulator_project/move_group" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/manipulator_project/move_group")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/manipulator_project" TYPE EXECUTABLE FILES "/home/tamir/manipulator_project/build/manipulator_project/move_robot")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/manipulator_project/move_robot" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/manipulator_project/move_robot")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/manipulator_project/move_group"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/manipulator_project/move_robot"
          OLD_RPATH "/home/tamir/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/tamir/ws_moveit2/install/moveit_ros_move_group/lib:/home/tamir/ws_moveit2/install/moveit_ros_warehouse/lib:/home/tamir/ws_moveit2/install/moveit_ros_planning/lib:/home/tamir/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/tamir/ws_moveit2/install/moveit_core/lib:/opt/ros/humble/lib:/home/tamir/ws_moveit2/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/manipulator_project/move_group")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/manipulator_project/move_robot")
     endif()
   endif()
 endif()

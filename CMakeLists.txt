@@ -16,9 +16,9 @@ find_package(geometry_msgs REQUIRED)
 find_package(trajectory_msgs REQUIRED)
 
 # Add the executable
-add_executable(move_group src/move_group.cpp)
+add_executable(move_robot src/move_robot.cpp)
 # Link dependencies
-ament_target_dependencies(move_group
+ament_target_dependencies(move_robot
   rclcpp
   moveit_core
   moveit_ros_planning_interface
@@ -36,7 +36,7 @@ endif()
 
 
 # Install the executable
-install(TARGETS move_group
+install(TARGETS move_robot
   DESTINATION lib/${PROJECT_NAME})
 
 
