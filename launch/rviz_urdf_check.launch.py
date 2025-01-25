@@ -8,7 +8,7 @@ import xacro
 def generate_launch_description():
     # Path to the URDF/Xacro file
     pkg_path = os.path.join(get_package_share_directory('manipulator_project'))
-    xacro_file = os.path.join(pkg_path, 'urdf', 'manipulator_model.urdf.xacro')
+    xacro_file = os.path.join(pkg_path, 'urdf', 'manipulator_model2.urdf.xacro')
 
     # Parse the Xacro file into URDF
     robot_description_config = xacro.process_file(xacro_file).toxml()

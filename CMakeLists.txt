@@ -27,6 +27,7 @@ ament_target_dependencies(move_robot
   trajectory_msgs
 )
 
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   set(ament_cmake_copyright_FOUND TRUE)
@@ -38,7 +39,6 @@ endif()
 # Install the executable
 install(TARGETS move_robot
   DESTINATION lib/${PROJECT_NAME})
-
 
 # Install directories
 install(
