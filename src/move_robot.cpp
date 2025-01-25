@@ -1,82 +1,67 @@
+#include <memory>
+#include <thread>
 #include <rclcpp/rclcpp.hpp>
 #include <moveit/move_group_interface/move_group_interface.h>
-#include <moveit/planning_scene_interface/planning_scene_interface.h>
-#include <moveit_msgs/msg/display_robot_state.hpp>
-#include <moveit_msgs/msg/display_trajectory.hpp>
-#include <moveit_msgs/msg/attached_collision_object.hpp>
-#include <moveit_msgs/msg/collision_object.hpp>
-#include <geometry_msgs/msg/pose.hpp>
-#include <chrono>
-#include <thread>
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
-    // Initialize ROS 2
-    rclcpp::init(argc, argv);
+  // Initialize ROS
+  rclcpp::init(argc, argv);
 
-    // Create a node
-    auto node = rclcpp::Node::make_shared("move_group");
+  // Create the Node
+  auto const node = std::make_shared<rclcpp::Node>(
+      "hello_moveit",
+      rclcpp::NodeOptions().automatically_declare_parameters_from_overrides(true));
 
-    // Create an asynchronous spinner to handle callbacks
-    rclcpp::executors::SingleThreadedExecutor executor;
-    executor.add_node(node);
-    std::thread spinner_thread([&executor]() {
-        RCLCPP_DEBUG(rclcpp::get_logger("rclcpp"), "Spinner thread started.");
-        executor.spin();
-    });
+  // Create a ROS logger
+  auto const logger = rclcpp::get_logger("hello_moveit");
 
-    // Sleep to allow time for everything to initialize
-    std::this_thread::sleep_for(std::chrono::seconds(2));
-    RCLCPP_INFO(node->get_logger(), "Node and spinner initialized.");
+  // Create the MoveIt MoveGroup Interface
+  using moveit::planning_interface::MoveGroupInterface;
+  auto move_group_interface = MoveGroupInterface(node, "arm");
 
-    // Move group interface for the robot arm
-    RCLCPP_DEBUG(node->get_logger(), "Creating MoveGroupInterface for 'arm'.");
-    moveit::planning_interface::MoveGroupInterface move_group(node, "arm");
+  // Create a separate executor for spinning the node
+  rclcpp::executors::SingleThreadedExecutor executor;
+  executor.add_node(node);
 
-    // Publisher for visualizing plans in RViz
-    auto display_publisher = node->create_publisher<moveit_msgs::msg::DisplayTrajectory>(
-        "/move_group/display_planned_path", rclcpp::QoS(10).transient_local());
+  // Start a separate thread for spinning
+  std::thread spin_thread([&executor]() {
+    executor.spin();
+  });
 
-    moveit_msgs::msg::DisplayTrajectory display_trajectory;
+  // Set a target pose
+  auto const target_pose = [] {
+    geometry_msgs::msg::Pose msg;
+    msg.position.x = 0.0;
+    msg.position.y = 0.4;
+    msg.position.z = 0.55;
+    return msg;
+  }();
+  move_group_interface.setApproximateJointValueTarget(target_pose, "end_effector");
 
-    // Log reference frames
-    RCLCPP_INFO(node->get_logger(), "Reference frame: %s", move_group.getPlanningFrame().c_str());
-    RCLCPP_INFO(node->get_logger(), "End effector link: %s", move_group.getEndEffectorLink().c_str());
+  // Create a plan to that target pose
+  auto const [success, plan] = [&move_group_interface] {
+    moveit::planning_interface::MoveGroupInterface::Plan msg;
+    auto const ok = static_cast<bool>(move_group_interface.plan(msg));
+    return std::make_pair(ok, msg);
+  }();
 
-    // Define the target pose (position + orientation aligned with the Z-axis of link1)
-    geometry_msgs::msg::Pose target_pose;
-    target_pose.position.x = 0.0;   // Set your target position
-    target_pose.position.y = 0.0;
-    target_pose.position.z = 0.55;
+  // Execute the plan
+  if (success)
+  {
+    move_group_interface.execute(plan);
+    RCLCPP_INFO(logger, "Plan executed successfully.");
+  }
+  else
+  {
+    RCLCPP_ERROR(logger, "Planning failed!");
+  }
 
-    RCLCPP_INFO(node->get_logger(),
-                "Setting pose target to: x=%.2f, y=%.2f, z=%.2f",
-                target_pose.position.x, target_pose.position.y, target_pose.position.z);
+  // Shutdown the executor and thread
+  executor.cancel();
+  spin_thread.join();
 
-    // Set the pose target
-    move_group.setPoseTarget(target_pose);
-
-    // Plan to the pose target
-    moveit::planning_interface::MoveGroupInterface::Plan my_plan;
-    auto success = move_group.plan(my_plan);
-
-    // Check if planning succeeded
-    if (success == moveit::core::MoveItErrorCode::SUCCESS)
-    {
-        RCLCPP_INFO(node->get_logger(), "Planning succeeded, moving the arm.");
-        move_group.move();
-    }
-    else
-    {
-        RCLCPP_WARN(node->get_logger(), "Planning failed, not moving the arm.");
-    }
-
-    // Shutdown the spinner and ROS 2
-    RCLCPP_INFO(node->get_logger(), "Shutting down node and spinner...");
-    executor.cancel();           // Stop the executor
-    spinner_thread.join();       // Join the spinner thread
-    rclcpp::shutdown();          // Properly shut down ROS 2
-    RCLCPP_INFO(node->get_logger(), "Node and spinner shut down. Exiting program.");
-
-    return 0;
+  // Shutdown ROS
+  rclcpp::shutdown();
+  return 0;
 }

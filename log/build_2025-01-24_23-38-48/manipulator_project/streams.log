@@ -1,0 +1,53 @@
+[0.013s] Invoking command in '/home/tamir/manipulator_project/build/manipulator_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom:/home/tamir/ws_moveit2/install/moveit_configs_utils:/home/tamir/ws_moveit2/install/launch_param_builder:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware/install/control_hardware:/opt/ros/humble /usr/bin/cmake --build /home/tamir/manipulator_project/build/manipulator_project -- -j12 -l12
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target move_robot[0m
+[0.105s] [100%] Built target move_robot
+[0.121s] Invoked command in '/home/tamir/manipulator_project/build/manipulator_project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom:/home/tamir/ws_moveit2/install/moveit_configs_utils:/home/tamir/ws_moveit2/install/launch_param_builder:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware/install/control_hardware:/opt/ros/humble /usr/bin/cmake --build /home/tamir/manipulator_project/build/manipulator_project -- -j12 -l12
+[0.136s] Invoking command in '/home/tamir/manipulator_project/build/manipulator_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom:/home/tamir/ws_moveit2/install/moveit_configs_utils:/home/tamir/ws_moveit2/install/launch_param_builder:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware/install/control_hardware:/opt/ros/humble /usr/bin/cmake --install /home/tamir/manipulator_project/build/manipulator_project
+[0.149s] -- Install configuration: ""
+[0.149s] -- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/lib/manipulator_project/move_robot
+[0.149s] -- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//config
+[0.149s] -- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//config/urdf_config.rviz
+[0.149s] -- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//launch
+[0.149s] -- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//launch/simulation.launch.py
+[0.149s] -- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//launch/rviz_urdf_check.launch.py
+[0.149s] -- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//urdf
+[0.149s] -- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//urdf/manipulator_model.urdf.xacro
+[0.149s] -- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//urdf/build
+[0.149s] -- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//urdf/build/COLCON_IGNORE
+[0.150s] -- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//urdf/build/.built_by
+[0.150s] -- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//urdf/log
+[0.150s] -- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//urdf/log/COLCON_IGNORE
+[0.150s] -- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//urdf/log/latest
+[0.150s] -- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//urdf/log/latest_build
+[0.150s] -- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//urdf/log/build_2025-01-24_23-38-41
+[0.150s] -- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//urdf/log/build_2025-01-24_23-38-41/events.log
+[0.150s] -- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//urdf/log/build_2025-01-24_23-38-41/logger_all.log
+[0.150s] -- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//urdf/install
+[0.150s] -- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//urdf/install/setup.ps1
+[0.151s] -- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//urdf/install/setup.zsh
+[0.151s] -- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//urdf/install/local_setup.sh
+[0.151s] -- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//urdf/install/_local_setup_util_ps1.py
+[0.151s] -- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//urdf/install/COLCON_IGNORE
+[0.151s] -- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//urdf/install/.colcon_install_layout
+[0.151s] -- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//urdf/install/setup.sh
+[0.151s] -- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//urdf/install/setup.bash
+[0.151s] -- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//urdf/install/local_setup.zsh
+[0.151s] -- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//urdf/install/local_setup.ps1
+[0.151s] -- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//urdf/install/local_setup.bash
+[0.152s] -- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//urdf/install/_local_setup_util_sh.py
+[0.152s] -- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/ament_index/resource_index/package_run_dependencies/manipulator_project
+[0.152s] -- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/ament_index/resource_index/parent_prefix_path/manipulator_project
+[0.152s] -- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project/environment/ament_prefix_path.sh
+[0.152s] -- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project/environment/ament_prefix_path.dsv
+[0.152s] -- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project/environment/path.sh
+[0.152s] -- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project/environment/path.dsv
+[0.152s] -- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project/local_setup.bash
+[0.152s] -- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project/local_setup.sh
+[0.152s] -- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project/local_setup.zsh
+[0.152s] -- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project/local_setup.dsv
+[0.152s] -- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project/package.dsv
+[0.152s] -- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/ament_index/resource_index/packages/manipulator_project
+[0.152s] -- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project/cmake/manipulator_projectConfig.cmake
+[0.153s] -- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project/cmake/manipulator_projectConfig-version.cmake
+[0.153s] -- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project/package.xml
+[0.155s] Invoked command in '/home/tamir/manipulator_project/build/manipulator_project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tamir/ros2_ws/install/turtle_spawner:/home/tamir/ros2_ws/install/turtle_controller:/home/tamir/ros2_ws/install/my_py_pkg:/home/tamir/autonomous_robot/autonomous_robot_control/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/install/calc_odom:/home/tamir/ws_moveit2/install/moveit_configs_utils:/home/tamir/ws_moveit2/install/launch_param_builder:/home/tamir/autonomous_robot/install/calc_odom:/home/tamir/autonomous_robot/install/control_hardware:/home/tamir/autonomous_robot/autonomous_robot_control/src/control_hardware/install/control_hardware:/opt/ros/humble /usr/bin/cmake --install /home/tamir/manipulator_project/build/manipulator_project
