@@ -84,8 +84,6 @@ This defines the top half of the sphere with a 0.5 [m] translation in the z-dire
 
 # Architecture
 
-![image](https://github.com/user-attachments/assets/de154435-3d91-4188-8243-051ad3a866d0)
-
 This diagram illustrates the workflow of the MoveToPose service:
 
 Request:
@@ -111,6 +109,6 @@ True if planning and execution succeed.
 False if there is a failure in planning or execution.
 This is directly implemented in the provided code using setApproximateJointValueTarget for planning and execute(plan) for execution.
 
+![image](https://github.com/user-attachments/assets/de154435-3d91-4188-8243-051ad3a866d0)
 
-
-Note: I tried for a long time to use setPoseTarget, but it consistently failed due to issues with target resolution or workspace constraints. However, when using setApproximateJointValueTarget, the robot attempts to move toward the target even if the pose is outside its reachable workspace, making it less restrictive but less precise.
+Note: I tried for a very long time to use setPoseTarget, but it consistently failed due to issues with target resolution or workspace constraints. However, when using setApproximateJointValueTarget, the robot attempts to move toward the target even if the pose is outside its reachable workspace, making it less restrictive but less precise.
