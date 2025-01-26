@@ -60,6 +60,11 @@ After launching the lauch files you can now use the service (don't forget to sou
       orientation: {x: 0.273, y: -0.201, z: -0.758, w: 0.577}
         }
       }"
+
+You can verify the end_effector's final cordinate using:
+
+    ros2 run tf2_ros tf2_echo world end_effector_link
+
 # Workspace of the robot
 The workspace of a robot refers to the physical region or area within which the robot can operate and perform tasks.
 The base_link is 0.1 [m] hight, link1 is 0.4 [m] and link 2 is 0.4 [m].
