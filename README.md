@@ -56,7 +56,8 @@ After launching the lauch files you can now use the service, here are some examp
       }"
 # Workspace of the robot
 The workspace of a robot refers to the physical region or area within which the robot can operate and perform tasks.
-The base_link is 0.1 [m] hight, link1 is 0.4 [m] and link 2 is 0.4 [m]. Joint 1: base_link_to_link1 can rotate 360 degrees, and link1_to_link2 can rotate -90 to 90 degrees.
+The base_link is 0.1 [m] hight, link1 is 0.4 [m] and link 2 is 0.4 [m].
+Joint 1: base_link_to_link1 can rotate 360 degrees, and link1_to_link2 can rotate -90 to 90 degrees.
 
 ![image](https://github.com/user-attachments/assets/14fd2bec-110a-4907-95d1-2f2949ab3436)
 
