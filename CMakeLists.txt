@@ -14,6 +14,7 @@ find_package(moveit_ros_planning_interface REQUIRED)
 find_package(moveit_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(trajectory_msgs REQUIRED)
+find_package(manipulator_interfaces REQUIRED)
 
 # Add the executable
 add_executable(move_robot src/move_robot.cpp)
@@ -27,6 +28,16 @@ ament_target_dependencies(move_robot
   trajectory_msgs
 )
 
+# Add executable for move_to_pose_service_node
+add_executable(move_to_pose_service_node src/move_to_pose_service_node.cpp)
+ament_target_dependencies(move_to_pose_service_node
+  rclcpp 
+  moveit_core 
+  moveit_ros_planning_interface 
+  moveit_msgs
+  geometry_msgs
+  manipulator_interfaces
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -39,6 +50,11 @@ endif()
 # Install the executable
 install(TARGETS move_robot
   DESTINATION lib/${PROJECT_NAME})
+
+  # Install the executable
+install(TARGETS move_to_pose_service_node
+DESTINATION lib/${PROJECT_NAME})
+
 
 # Install directories
 install(

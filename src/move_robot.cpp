@@ -3,6 +3,8 @@
 #include <rclcpp/rclcpp.hpp>
 #include <moveit/move_group_interface/move_group_interface.h>
 
+//NOTE: THIS FILE IS ONLY FOR TESTING PURPOSES USING THE MOVEIT API, FROM THIS FILE I CREATED THE SERVICE NODE
+
 int main(int argc, char *argv[])
 {
   // Initialize ROS
@@ -37,7 +39,7 @@ int main(int argc, char *argv[])
 
   // Set a target pose
   auto const target_pose = [] {
-    geometry_msgs::msg::Pose msg;
+    geometry_msgs::msg::Pose msg; //Example target pose
     msg.position.x = 0.4;
     msg.position.y = 0.0;
     msg.position.z = 0.5;

@@ -21,10 +21,12 @@ def generate_launch_description():
 
     # Node for the robot motion
     run_move_robot = Node(
-        package='manipulator_project',       # Replace with your actual package name
-        executable='move_robot',            # Replace with the name of your executable
+        package='manipulator_project',      
+        executable='move_to_pose_service_node',      
         output='screen',
-        parameters=[robot_description_kinematics]  # Pass the parsed YAML as a parameter dictionary
+            parameters=[
+        robot_description_kinematics,  # Pass the parsed YAML as a parameter dictionary
+        {"use_sim_time": True}]      
     )
 
     return LaunchDescription([

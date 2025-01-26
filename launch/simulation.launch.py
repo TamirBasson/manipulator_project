@@ -11,8 +11,6 @@ def generate_launch_description():
     # Load MoveIt configuration for the robot
     moveit_config = MoveItConfigsBuilder("robot2").to_moveit_configs()
     moveit_config_dict = moveit_config.to_dict()
-
-    # Add the 'use_sim_time' parameter to the dictionary
     moveit_config_dict.update({'use_sim_time': True})
 
     # Robot State Publisher Node
@@ -41,7 +39,7 @@ def generate_launch_description():
     # Include the demo launch file for MoveIt
     include_demo_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(demo_launch),
-        launch_arguments={"use_sim_time": "true"}.items()  # Pass 'use_sim_time' as a launch argument
+        launch_arguments={"use_sim_time": "true"}.items()
     )
 
     return LaunchDescription([

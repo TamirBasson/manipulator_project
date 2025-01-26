@@ -5,6 +5,7 @@ from launch_ros.actions import Node
 import xacro
 
 #I made this file to check the URDF model in RViz
+
 def generate_launch_description():
     # Path to the URDF/Xacro file
     pkg_path = os.path.join(get_package_share_directory('manipulator_project'))
