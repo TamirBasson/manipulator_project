@@ -86,7 +86,7 @@ This defines the top half of the sphere with a 0.5 [m] translation in the z-dire
 
 ![image](https://github.com/user-attachments/assets/de154435-3d91-4188-8243-051ad3a866d0)
 
-This diagram illustrates the workflow of the MoveToPose service in the provided code:
+This diagram illustrates the workflow of the MoveToPose service:
 
 Request:
 
