@@ -53,7 +53,17 @@ After launching the lauch files you can now use the service, here are some examp
 # Workspace of the robot
 The workspace of a robot refers to the physical region or area within which the robot can operate and perform tasks.
 The base_link is 0.1 [m] hight, link1 is 0.4 [m] and link 2 is 0.4 [m]. Joint 1: base_link_to_link1 can rotate 360 degrees, and link1_to_link2 can rotate -90 to 90 degrees.
+
 ![image](https://github.com/user-attachments/assets/06043b53-47ce-4d17-a378-2eabc26427ce)
 
-Therefore the workspace's cordinates should sutisfy these conditions:
+Since joint2 can only rotate 180 degrees, the workspace is limited to the upper half of an empty sphere. Therefore, the workspace coordinates must satisfy the following conditions:
+
+                    $x^2 + y^2 + \hat{z}^2 = l^2$
+
+                $x = x, \, y = y, \, z = \hat{z} + 0.5$
+
+This defines the top half of the sphere with a 0.5 [m] translation in the z-direction.
+
+
+
 
