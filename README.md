@@ -67,7 +67,31 @@ This defines the top half of the sphere with a 0.5 [m] translation in the z-dire
 
 # Architecture
 
+![image](https://github.com/user-attachments/assets/de154435-3d91-4188-8243-051ad3a866d0)
 
+This diagram illustrates the workflow of the MoveToPose service in the provided code:
 
+Request:
+
+A user sends a request to the /move_to_pose service with a target pose, defined as a geometry_msgs::msg::Pose. The pose contains:
+Position: The desired x, y, z coordinates.
+Orientation: The desired quaternion values (x, y, z, w).
+
+Service Node:
+
+The handle_move_to_pose function in the MoveToPoseService node:
+Uses the MoveGroupInterface to perform motion planning for the robotic arm to reach the target pose.
+If planning succeeds, it executes the motion.
+
+Robot Execution:
+
+The robot moves its end effector to the specified target pose.
+
+Response:
+
+The service responds with a boolean success value:
+True if planning and execution succeed.
+False if there is a failure in planning or execution.
+This is directly implemented in the provided code using setApproximateJointValueTarget for planning and execute(plan) for execution.
 
 
