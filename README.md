@@ -34,7 +34,11 @@ In new terminal launch a file containing the service move_to_position:
 
     source install/setup.bash
     ros2 launch manipulator_project start_service.launch.py
-    
+
+Note: I created a launch file specifically for checking the URDF in RVIZ, and I developed an API, move_robot.cpp, that moves the robot to a given point (without using a service).
+
+    ros2 launch manipulator_project rviz_urdf_check.launch.py
+
 After launching the lauch files you can now use the service, here are some examples:
 
     ros2 service call /move_to_pose manipulator_interfaces/srv/MoveToPose "{
@@ -61,7 +65,7 @@ Since joint2 can only rotate 180 degrees, the workspace is limited to the upper 
 
 $x^2 + y^2 + \hat{z}^2 = l^2$
 
-$x = x, \, y = y, \, z = \hat{z} + 0.5$
+$x = x, \, y = y, \, z = \hat{z} + 0.5 , l=0.4$
 
 This defines the top half of the sphere with a 0.5 [m] translation in the z-direction.
 
