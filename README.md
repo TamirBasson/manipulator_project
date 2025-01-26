@@ -63,7 +63,7 @@ After launching the lauch files you can now use the service (don't forget to sou
 
 You can verify the end_effector's final cordinate using:
 
-    ros2 run tf2_ros tf2_echo world end_effector_link
+    ros2 run tf2_ros tf2_echo world end_effector
 
 # Workspace of the robot
 The workspace of a robot refers to the physical region or area within which the robot can operate and perform tasks.
@@ -111,4 +111,4 @@ True if planning and execution succeed.
 False if there is a failure in planning or execution.
 This is directly implemented in the provided code using setApproximateJointValueTarget for planning and execute(plan) for execution.
 
-
+Note: I tried for a long time to use setPoseTarget, but it consistently failed due to issues with target resolution or workspace constraints. However, when using setApproximateJointValueTarget, the robot attempts to move toward the target even if the pose is outside its reachable workspace, making it less restrictive but less precise.
