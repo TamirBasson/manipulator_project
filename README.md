@@ -39,7 +39,7 @@ Note: I created a launch file specifically for checking the URDF in RVIZ, and I 
 
     ros2 launch manipulator_project rviz_urdf_check.launch.py
 
-After launching the lauch files you can now use the service, here are some examples:
+After launching the lauch files you can now use the service (don't forget to source before running the examples on a new terminal), here are some examples:
 
     ros2 service call /move_to_pose manipulator_interfaces/srv/MoveToPose "{
       target_pose: {
@@ -54,9 +54,16 @@ After launching the lauch files you can now use the service, here are some examp
       orientation: {x: 0.379, y: 0.597, z: -0.379, w: 0.597}
         }
       }"
+    ros2 service call /move_to_pose manipulator_interfaces/srv/MoveToPose "{
+      target_pose: {
+      position: {x: 0.076, y: -0.243, z: 0.808},
+      orientation: {x: 0.273, y: -0.201, z: -0.758, w: 0.577}
+        }
+      }"
 # Workspace of the robot
 The workspace of a robot refers to the physical region or area within which the robot can operate and perform tasks.
 The base_link is 0.1 [m] hight, link1 is 0.4 [m] and link 2 is 0.4 [m].
+
 Joint 1: base_link_to_link1 can rotate 360 degrees, and link1_to_link2 can rotate -90 to 90 degrees.
 
 ![image](https://github.com/user-attachments/assets/14fd2bec-110a-4907-95d1-2f2949ab3436)
