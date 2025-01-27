@@ -111,4 +111,4 @@ This is directly implemented in the provided code using setApproximateJointValue
 
 ![image](https://github.com/user-attachments/assets/de154435-3d91-4188-8243-051ad3a866d0)
 
-Note: I tried for a very long time to use setPoseTarget, but it consistently failed due to issues with target resolution or workspace constraints. However, when using setApproximateJointValueTarget, the robot attempts to move toward the target even if the pose is outside its reachable workspace, making it less restrictive but less precise.
+Important Note: I spent a significant amount of time trying to use setPoseTarget, but it consistently failed due to issues with workspace constraints. setPoseTarget requires an accurate point, and since the workspace in this project is an empty sphere with no thickness, this might be the cause of the problem. However, when using setApproximateJointValueTarget, the robot attempts to move toward the target even if the pose is outside its reachable workspace. This makes it less restrictive but also less precise.
