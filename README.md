@@ -14,7 +14,7 @@ Clone the repository and do a colcon build for the interfaces:
     colcon build
     source install/setup.bash
     
-Now get back to /manipulator_ptojrct folder and do colcon build for the package:
+Now get back to /manipulator_project folder and do colcon build for the package:
     
     cd ../..
     colcon build
@@ -26,7 +26,7 @@ Perform colcon build for the moveit_config provided by moveit assistant:
     colcon build
     source install/setup.bash
 
-Launch rviz simulation for visuallization:
+Launch rviz simulation for visuallization (after launching you should see the manipulator in Rviz):
 
     ros2 launch manipulator_project simulation.launch.py
 
@@ -37,9 +37,9 @@ In a new terminal (you should be still in the ~/manipulator_project/config$ fold
 
 After launching the lauch files you can now use the service in a new terminal (you should be still in the ~/manipulator_project/config$ folder):
 
-    source install/setup.bash
+    source install/setup.bash #always source the installation first
         
-Now you can call the service. here are some examples:
+Now you can call the service. Here are some examples:
     
     ros2 service call /move_to_pose manipulator_interfaces/srv/MoveToPose "{
       target_pose: {
