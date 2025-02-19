@@ -54,6 +54,7 @@ After sourcing, in the same terminal you can call the service. Here are some exa
       orientation: {x: 0.379, y: 0.597, z: -0.379, w: 0.597}
         }
       }"
+      
     ros2 service call /move_to_pose manipulator_interfaces/srv/MoveToPose "{
       target_pose: {
       position: {x: 0.076, y: -0.243, z: 0.808},
