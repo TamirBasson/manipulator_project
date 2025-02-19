@@ -14,9 +14,9 @@ Clone the repository and do a colcon build for the interfaces:
     colcon build
     source install/setup.bash
     
-Now you can do colcon build for the package:
-
-    cd manipulator_project
+Now get back to /manipulator_ptojrct folder and do colcon build for the package:
+    
+    cd ../..
     colcon build
     source install/setup.bash
 
@@ -30,17 +30,17 @@ Launch rviz simulation for visuallization:
 
     ros2 launch manipulator_project simulation.launch.py
 
-In a new terminal launch a file containing the service move_to_position (you may also need to source from manipulator_project/src/manipulator_interfaces):
+In a new terminal (you should be still in the ~/manipulator_project/config$ folder) launch a file containing the service move_to_position:
 
     source install/setup.bash
     ros2 launch manipulator_project start_service.launch.py
 
-Note: I created a launch file specifically for checking the URDF in RVIZ, and I developed an API, move_robot.cpp, that moves the robot to a given point (without using a service).
+After launching the lauch files you can now use the service in a new terminal (you should be still in the ~/manipulator_project/config$ folder):
 
-    ros2 launch manipulator_project rviz_urdf_check.launch.py
-
-After launching the lauch files you can now use the service (don't forget to source before running the examples on a new terminal), here are some examples:
-
+        source install/setup.bash
+        
+Now you can call the service. here are some examples:
+    
     ros2 service call /move_to_pose manipulator_interfaces/srv/MoveToPose "{
       target_pose: {
       position: {x: 0.4, y: 0.0, z: 0.5},
@@ -64,6 +64,12 @@ After launching the lauch files you can now use the service (don't forget to sou
 You can verify the end_effector's final cordinate using:
 
     ros2 run tf2_ros tf2_echo world end_effector
+
+n this project, I used two separate launch files for the service and visualization to improve modularity and flexibility. This allows independent launching for easier debugging.
+
+Note: I created a launch file specifically for checking the URDF in RVIZ, and I developed an API, move_robot.cpp, that moves the robot to a given point (without using a service).
+
+    ros2 launch manipulator_project rviz_urdf_check.launch.py
 
 # Workspace of the robot
 The workspace of a robot refers to the physical region or area within which the robot can operate and perform tasks.
