@@ -37,9 +37,9 @@ In a new terminal (you should be still in the ~/manipulator_project/config$ fold
 
 After launching the lauch files you can now use the service in a new terminal (you should be still in the ~/manipulator_project/config$ folder):
 
-    source install/setup.bash #always source the installation first
+    source install/setup.bash 
         
-Now you can call the service. Here are some examples:
+After sourcing, in the same terminal you can call the service. Here are some examples:
     
     ros2 service call /move_to_pose manipulator_interfaces/srv/MoveToPose "{
       target_pose: {
