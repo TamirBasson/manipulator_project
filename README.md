@@ -37,7 +37,7 @@ In a new terminal (you should be still in the ~/manipulator_project/config$ fold
 
 After launching the lauch files you can now use the service in a new terminal (you should be still in the ~/manipulator_project/config$ folder):
 
-        source install/setup.bash
+    source install/setup.bash
         
 Now you can call the service. here are some examples:
     
@@ -117,4 +117,4 @@ This is directly implemented in the provided code using setApproximateJointValue
 
 ![image](https://github.com/user-attachments/assets/de154435-3d91-4188-8243-051ad3a866d0)
 
-Important Note: I spent a significant amount of time trying to use setPoseTarget, but it consistently failed due to issues with workspace constraints. setPoseTarget requires an accurate point, and since the workspace in this project is an empty sphere with no thickness, this might be the cause of the problem. However, when using setApproximateJointValueTarget, the robot attempts to move toward the target even if the pose is outside its reachable workspace. This makes it less restrictive but also less precise.
+Important Note: I spent a significant amount of time trying to use setPoseTarget, but it consistently failed due to issues with workspace constraints. setPoseTarget requires an accurate point, and since the workspace in this project is an empty sphere with no thickness, this might be the cause of the problem. However, when using setApproximateJointValueTarget, the robot attempts to move toward the target even if the pose is outside its reachable workspace. This function makes the robot's motion planning less restrictive but also a bit less precise.
