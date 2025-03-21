@@ -20,11 +20,6 @@ Now get back to /manipulator_project folder and do colcon build for the package:
     colcon build
     source install/setup.bash
 
-Perform colcon build for the moveit_config provided by moveit assistant:
-
-    cd config
-    colcon build
-    source install/setup.bash
 
 Launch rviz simulation for visuallization (after launching you should see the manipulator in Rviz):
 
