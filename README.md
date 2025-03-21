@@ -20,7 +20,11 @@ Now get back to /manipulator_project folder and do colcon build for the package:
     colcon build
     source install/setup.bash
 
-
+    cd
+    cd manipulator_project/robot2_moveit_config
+    colcon build
+    source install/setup.bash
+    
 Launch rviz simulation for visuallization (after launching you should see the manipulator in Rviz):
 
     ros2 launch manipulator_project simulation.launch.py
