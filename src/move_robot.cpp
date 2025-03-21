@@ -40,13 +40,13 @@ int main(int argc, char *argv[])
   // Set a target pose
   auto const target_pose = [] {
     geometry_msgs::msg::Pose msg; //Example target pose
-    msg.position.x = 0.4;
-    msg.position.y = 0.0;
-    msg.position.z = 0.5;
-    msg.orientation.x = 0.0;
-    msg.orientation.y = 0.707;
-    msg.orientation.z = 0.0;
-    msg.orientation.w = 0.707;
+    msg.position.x = 0.174;
+    msg.position.y = -0.463;
+    msg.position.z = 0.656;
+    msg.orientation.x = 0.500;
+    msg.orientation.y = 0.722;
+    msg.orientation.z = -0.273;
+    msg.orientation.w = 0.394;
     return msg;
   }();
   move_group_interface.setApproximateJointValueTarget(target_pose, "end_effector");

@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b91e2d6ee84cafc2965d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "manipulator_interfaces__py",
+					"jsonFile" : "directory-manipulator_interfaces__py-1ba8970c4bd89b894cdb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "build/manipulator_interfaces/manipulator_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "manipulator_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_manipulator_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_manipulator_interfaces_egg-d349a42122849363e704.json",
+					"name" : "ament_cmake_python_build_manipulator_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_manipulator_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_manipulator_interfaces-bdd30cfa290ac031f07f.json",
+					"name" : "ament_cmake_python_copy_manipulator_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "manipulator_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-manipulator_interfaces-12b97b3102eadf48c33a.json",
+					"name" : "manipulator_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "manipulator_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-manipulator_interfaces__cpp-40ee586205e88eba4121.json",
+					"name" : "manipulator_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "manipulator_interfaces__py::@71bdb03a46b02882702a",
+					"jsonFile" : "target-manipulator_interfaces__py-1f068df557bad4adb729.json",
+					"name" : "manipulator_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "manipulator_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-manipulator_interfaces__rosidl_generator_c-b43c033d23de9f8a0d53.json",
+					"name" : "manipulator_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "manipulator_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-manipulator_interfaces__rosidl_generator_py-d706546599d188a2a2b3.json",
+					"name" : "manipulator_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "manipulator_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-manipulator_interfaces__rosidl_typesupport_c-905acccb7af86601efcb.json",
+					"name" : "manipulator_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "manipulator_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-manipulator_interfaces__rosidl_typesupport_c__pyext-12e8c861b8a8ffc34518.json",
+					"name" : "manipulator_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "manipulator_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-manipulator_interfaces__rosidl_typesupport_cpp-736a5dacaba38ee29500.json",
+					"name" : "manipulator_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "manipulator_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-manipulator_interfaces__rosidl_typesupport_fastrtps_c-d926f676376a5434c8be.json",
+					"name" : "manipulator_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "manipulator_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-manipulator_interfaces__rosidl_typesupport_fastrtps_c__pyext-f203f5fa63b789daf887.json",
+					"name" : "manipulator_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "manipulator_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-manipulator_interfaces__rosidl_typesupport_fastrtps_cpp-e17ee9d011924af0210b.json",
+					"name" : "manipulator_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "manipulator_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-manipulator_interfaces__rosidl_typesupport_introspection_c-4289022ab96e6dfbb8de.json",
+					"name" : "manipulator_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "manipulator_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-manipulator_interfaces__rosidl_typesupport_introspection_c__pyext-b922d509da175c16207f.json",
+					"name" : "manipulator_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "manipulator_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-manipulator_interfaces__rosidl_typesupport_introspection_cpp-049c877fb734ed70209d.json",
+					"name" : "manipulator_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "manipulator_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-manipulator_interfaces_uninstall-dce5654c4a15619a197a.json",
+					"name" : "manipulator_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7c648315d513f71ff967.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tamir/manipulator_project/src/manipulator_interfaces/build/manipulator_interfaces",
+		"source" : "/home/tamir/manipulator_project/src/manipulator_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

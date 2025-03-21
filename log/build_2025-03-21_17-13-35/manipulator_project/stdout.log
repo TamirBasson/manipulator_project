@@ -1,0 +1,274 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found moveit_core: 2.5.7 (/home/tamir/ws_moveit2/install/moveit_core/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found moveit_ros_planning_interface: 2.5.7 (/home/tamir/ws_moveit2/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found manipulator_interfaces: 0.0.0 (/home/tamir/manipulator_project/src/manipulator_interfaces/install/manipulator_interfaces/share/manipulator_interfaces/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/tamir/manipulator_project/src/manipulator_interfaces/install/manipulator_interfaces/include/manipulator_interfaces
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tamir/manipulator_project/build/manipulator_project
+[35m[1mConsolidate compiler generated dependencies of target move_robot[0m
+[35m[1mConsolidate compiler generated dependencies of target move_to_pose_service_node[0m
+[ 50%] Built target move_to_pose_service_node
+[100%] Built target move_robot
+-- Install configuration: ""
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/lib/manipulator_project/move_robot
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/lib/manipulator_project/move_to_pose_service_node
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//launch
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//launch/simulation.launch.py
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//launch/start_service.launch.py
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//launch/rviz_urdf_check.launch.py
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//urdf
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//urdf/manipulator_model2.urdf.xacro
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/package.xml
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/launch
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/launch/__pycache__
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/launch/__pycache__/demo.launch.cpython-310.pyc
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/launch/setup_assistant.launch.py
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/launch/move_group.launch.py
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/launch/moveit_rviz.launch.py
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/launch/demo.launch.py
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/launch/static_virtual_joint_tfs.launch.py
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/launch/warehouse_db.launch.py
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/launch/spawn_controllers.launch.py
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/launch/rsp.launch.py
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CTestConfiguration.ini
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_index
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_index/share
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_index/share/ament_index
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_index/share/ament_index/resource_index
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot2_moveit_config
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_index/share/ament_index/resource_index/packages
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_index/share/ament_index/resource_index/packages/robot2_moveit_config
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/robot2_moveit_config
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/colcon_command_prefix_build.sh
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_uninstall_target
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/cmake_args.last
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/colcon_command_prefix_build.sh.env
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CTestTestfile.cmake
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_core
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_core/robot2_moveit_configConfig.cmake
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_core/package.cmake
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_core/robot2_moveit_configConfig-version.cmake
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_core/stamps
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_core/stamps/package_xml_2_cmake.py.stamp
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_core/stamps/nameConfig.cmake.in.stamp
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_core/stamps/templates_2_cmake.py.stamp
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_core/stamps/nameConfig-version.cmake.in.stamp
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_core/stamps/package.xml.stamp
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_core/stamps/path.sh.stamp
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_core/stamps/ament_prefix_path.sh.stamp
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CTestCustom.cmake
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/colcon_build.rc
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_package_templates
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_package_templates/templates.cmake
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_environment_hooks
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_environment_hooks/local_setup.sh
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_environment_hooks/ament_prefix_path.dsv
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_environment_hooks/local_setup.zsh
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_environment_hooks/local_setup.dsv
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_environment_hooks/path.dsv
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_environment_hooks/local_setup.bash
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/ament_cmake_environment_hooks/package.dsv
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/Makefile.cmake
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/CMakeOutput.log
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/CMakeDirectoryInformation.cmake
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/TargetDirectories.txt
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/robot2_moveit_config_uninstall.dir
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/robot2_moveit_config_uninstall.dir/build.make
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/robot2_moveit_config_uninstall.dir/compiler_depend.make
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/robot2_moveit_config_uninstall.dir/progress.make
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/robot2_moveit_config_uninstall.dir/compiler_depend.ts
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/robot2_moveit_config_uninstall.dir/cmake_clean.cmake
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/robot2_moveit_config_uninstall.dir/DependInfo.cmake
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/progress.marks
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/CMakeTmp
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/Makefile2
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/uninstall.dir
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/uninstall.dir/build.make
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/uninstall.dir/compiler_depend.make
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/uninstall.dir/progress.make
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/uninstall.dir/compiler_depend.ts
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/uninstall.dir/cmake_clean.cmake
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/uninstall.dir/DependInfo.cmake
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/3.22.1
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/3.22.1/CMakeDetermineCompilerABI_CXX.bin
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/3.22.1/CMakeSystem.cmake
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/3.22.1/CMakeDetermineCompilerABI_C.bin
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/3.22.1/CMakeCCompiler.cmake
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/3.22.1/CompilerIdCXX
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/3.22.1/CompilerIdCXX/tmp
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/3.22.1/CompilerIdCXX/a.out
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/3.22.1/CompilerIdC
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/3.22.1/CompilerIdC/tmp
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/3.22.1/CompilerIdC/a.out
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/cmake.check_cache
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeFiles/CMakeRuleHashes.txt
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/cmake_install.cmake
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/CMakeCache.txt
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/install_manifest.txt
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/.cmake
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/.cmake/api
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/.cmake/api/v1
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/.cmake/api/v1/reply
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/.cmake/api/v1/reply/directory-.-b43482103471be2d05e2.json
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/.cmake/api/v1/reply/codemodel-v2-9e35a3d69996f3e0e897.json
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/.cmake/api/v1/reply/index-2025-03-21T15-13-30-0236.json
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/.cmake/api/v1/reply/target-uninstall-bbb56078d5cb9c0d2615.json
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/.cmake/api/v1/reply/target-robot2_moveit_config_uninstall-8e2d0ca8423c3a50fc83.json
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/.cmake/api/v1/query
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/.cmake/api/v1/query/client-colcon-cmake
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/.cmake/api/v1/query/client-colcon-cmake/codemodel-v2
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/robot2_moveit_config/Makefile
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/COLCON_IGNORE
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/build/.built_by
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/CMakeLists.txt
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/log
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/log/COLCON_IGNORE
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/log/latest
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/log/latest_build
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/log/build_2025-03-21_17-13-29
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/log/build_2025-03-21_17-13-29/events.log
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/log/build_2025-03-21_17-13-29/robot2_moveit_config
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/log/build_2025-03-21_17-13-29/robot2_moveit_config/command.log
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/log/build_2025-03-21_17-13-29/robot2_moveit_config/stderr.log
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/log/build_2025-03-21_17-13-29/robot2_moveit_config/stdout_stderr.log
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/log/build_2025-03-21_17-13-29/robot2_moveit_config/streams.log
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/log/build_2025-03-21_17-13-29/robot2_moveit_config/stdout.log
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/log/build_2025-03-21_17-13-29/logger_all.log
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/config
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/config/manipulator_robot2.srdf
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/config/moveit_controllers.yaml
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/config/kinematics.yaml
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/config/ros2_controllers.yaml
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/config/joint_limits.yaml
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/config/moveit.rviz
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/config/manipulator_robot2.ros2_control.xacro
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/config/manipulator_robot2.urdf.xacro
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/config/pilz_cartesian_limits.yaml
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/config/initial_positions.yaml
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/setup.ps1
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/setup.zsh
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/package.zsh
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/package.xml
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/local_setup.sh
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/launch
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/launch/__pycache__
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/launch/__pycache__/demo.launch.cpython-310.pyc
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/launch/setup_assistant.launch.py
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/launch/move_group.launch.py
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/launch/moveit_rviz.launch.py
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/launch/demo.launch.py
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/launch/static_virtual_joint_tfs.launch.py
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/launch/warehouse_db.launch.py
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/launch/spawn_controllers.launch.py
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/launch/rsp.launch.py
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/environment
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/environment/ament_prefix_path.sh
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/environment/path.sh
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/environment/ament_prefix_path.dsv
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/environment/path.dsv
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/cmake
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/cmake/robot2_moveit_configConfig.cmake
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/cmake/robot2_moveit_configConfig-version.cmake
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/package.ps1
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/config
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/config/manipulator_robot2.srdf
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/config/moveit_controllers.yaml
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/config/kinematics.yaml
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/config/ros2_controllers.yaml
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/config/joint_limits.yaml
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/config/moveit.rviz
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/config/manipulator_robot2.ros2_control.xacro
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/config/manipulator_robot2.urdf.xacro
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/config/pilz_cartesian_limits.yaml
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/config/initial_positions.yaml
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/local_setup.zsh
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/local_setup.dsv
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/package.sh
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/hook
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/hook/cmake_prefix_path.dsv
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/hook/cmake_prefix_path.sh
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/hook/cmake_prefix_path.ps1
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/local_setup.bash
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/package.dsv
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/.setup_assistant
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/robot2_moveit_config/package.bash
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/colcon-core
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/colcon-core/packages
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/colcon-core/packages/robot2_moveit_config
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/ament_index
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/ament_index/resource_index
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/ament_index/resource_index/package_run_dependencies
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/ament_index/resource_index/package_run_dependencies/robot2_moveit_config
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/ament_index/resource_index/packages
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/ament_index/resource_index/packages/robot2_moveit_config
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/ament_index/resource_index/parent_prefix_path
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/robot2_moveit_config/share/ament_index/resource_index/parent_prefix_path/robot2_moveit_config
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/local_setup.sh
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/_local_setup_util_ps1.py
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/COLCON_IGNORE
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/.colcon_install_layout
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/setup.sh
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/setup.bash
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/local_setup.zsh
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/local_setup.ps1
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/local_setup.bash
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/install/_local_setup_util_sh.py
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project//robot2_moveit_config/.setup_assistant
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/ament_index/resource_index/package_run_dependencies/manipulator_project
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/ament_index/resource_index/parent_prefix_path/manipulator_project
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project/environment/ament_prefix_path.sh
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project/environment/path.sh
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project/environment/path.dsv
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project/local_setup.bash
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project/local_setup.sh
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project/local_setup.zsh
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project/local_setup.dsv
+-- Installing: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project/package.dsv
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/ament_index/resource_index/packages/manipulator_project
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project/cmake/manipulator_projectConfig.cmake
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project/cmake/manipulator_projectConfig-version.cmake
+-- Up-to-date: /home/tamir/manipulator_project/install/manipulator_project/share/manipulator_project/package.xml

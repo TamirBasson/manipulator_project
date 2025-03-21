@@ -1,5 +1,0 @@
-# Default initial positions for manipulator_robot2's ros2_control fake system
-
-initial_positions:
-  base_link_to_link1: 0.0
-  link1_to_link2: 0.0

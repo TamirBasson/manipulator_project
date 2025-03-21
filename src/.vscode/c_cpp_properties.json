@@ -1,0 +1,63 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/tamir/manipulator_project/src/manipulator_interfaces/install/manipulator_interfaces/include/**",
+        "/home/tamir/ws_moveit2/install/pilz_industrial_motion_planner_testutils/include/**",
+        "/home/tamir/ws_moveit2/install/pilz_industrial_motion_planner/include/**",
+        "/home/tamir/ws_moveit2/install/moveit_visual_tools/include/**",
+        "/home/tamir/ws_moveit2/install/moveit_task_constructor_visualization/include/**",
+        "/home/tamir/ws_moveit2/install/moveit_task_constructor_demo/include/**",
+        "/home/tamir/ws_moveit2/install/moveit_task_constructor_core/include/**",
+        "/home/tamir/ws_moveit2/install/moveit_ros_control_interface/include/**",
+        "/home/tamir/ws_moveit2/install/moveit_simple_controller_manager/include/**",
+        "/home/tamir/ws_moveit2/install/moveit_setup_assistant/include/**",
+        "/home/tamir/ws_moveit2/install/moveit_setup_srdf_plugins/include/**",
+        "/home/tamir/ws_moveit2/install/moveit_setup_core_plugins/include/**",
+        "/home/tamir/ws_moveit2/install/moveit_setup_controllers/include/**",
+        "/home/tamir/ws_moveit2/install/moveit_setup_app_plugins/include/**",
+        "/home/tamir/ws_moveit2/install/moveit_setup_framework/include/**",
+        "/home/tamir/ws_moveit2/install/moveit_servo/include/**",
+        "/home/tamir/ws_moveit2/install/moveit_ros_visualization/include/**",
+        "/home/tamir/ws_moveit2/install/moveit_hybrid_planning/include/**",
+        "/home/tamir/ws_moveit2/install/moveit_ros_planning_interface/include/**",
+        "/home/tamir/ws_moveit2/install/moveit_ros_benchmarks/include/**",
+        "/home/tamir/ws_moveit2/install/moveit_ros_warehouse/include/**",
+        "/home/tamir/ws_moveit2/install/moveit_ros_robot_interaction/include/**",
+        "/home/tamir/ws_moveit2/install/moveit_ros_perception/include/**",
+        "/home/tamir/ws_moveit2/install/moveit_ros_move_group/include/**",
+        "/home/tamir/ws_moveit2/install/moveit_planners_ompl/include/**",
+        "/home/tamir/ws_moveit2/install/moveit_ros_planning/include/**",
+        "/home/tamir/ws_moveit2/install/moveit_ros_occupancy_map_monitor/include/**",
+        "/home/tamir/ws_moveit2/install/moveit_kinematics/include/**",
+        "/home/tamir/ws_moveit2/install/chomp_motion_planner/include/**",
+        "/home/tamir/ws_moveit2/install/moveit_core/include/**",
+        "/home/tamir/ws_moveit2/install/srdfdom/include/**",
+        "/home/tamir/ws_moveit2/install/rviz_marker_tools/include/**",
+        "/home/tamir/ws_moveit2/install/rosparam_shortcuts/include/**",
+        "/home/tamir/ws_moveit2/install/moveit_task_constructor_msgs/include/**",
+        "/home/tamir/autonomous_robot/install/joystick/include/**",
+        "/home/tamir/autonomous_robot/install/robot_common_interfaces/include/**",
+        "/home/tamir/turtlebot3_ws/install/turtlebot3_gazebo/include/**",
+        "/home/tamir/turtlebot3_ws/install/turtlebot3_fake_node/include/**",
+        "/home/tamir/ros2_ws/install/my_turtle_interfaces/include/**",
+        "/home/tamir/ros2_ws/install/my_robot_interfaces/include/**",
+        "/home/tamir/autonomous_robot/autonomous_robot_control/install/joystick/include/**",
+        "/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/pointcloud_to_laserscan/include/**",
+        "/home/tamir/autonomous_robot/sensors_package/src/lidar_ws/install/lslidar_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

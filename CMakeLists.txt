@@ -58,7 +58,7 @@ DESTINATION lib/${PROJECT_NAME})
 
 # Install directories
 install(
-  DIRECTORY config launch urdf 
+  DIRECTORY launch urdf robot2_moveit_config 
   DESTINATION share/${PROJECT_NAME}/
 )
 

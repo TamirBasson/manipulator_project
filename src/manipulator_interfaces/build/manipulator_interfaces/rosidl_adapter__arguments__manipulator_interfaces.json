@@ -1,0 +1,6 @@
+{
+  "package_name": "manipulator_interfaces",
+  "non_idl_tuples": [
+    "/home/tamir/manipulator_project/src/manipulator_interfaces:srv/MoveToPose.srv"
+  ]
+}
